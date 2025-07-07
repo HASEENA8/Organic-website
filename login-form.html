@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PurePluck - Login</title>
+  <link rel="stylesheet" href="form.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="left">
+      <i class="fas fa-map-marker-alt"></i> 123 Street, New York
+      <i class="fas fa-envelope"></i> Email@example.com
+    </div>
+    <div class="right">
+      <a href="#">Privacy Policy</a> / 
+      <a href="#">Terms of Use</a> / 
+      <a href="#">Sales & Refunds</a>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Thaja Phal Mart</div>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./shop.html">Shop</a></li>
+        <li><a href="./shop-details.html">Shop Detail</a></li>
+        <li><a href="#">Pages</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="icons">
+      <i class="fas fa-search"></i>
+      <i class="fas fa-shopping-bag"></i>
+      <i class="fas fa-user"></i>
+    </div>
+  </header>
+
+  <!-- Login Section -->
+  <section class="login">
+    <h1>Login</h1>
+
+    <div class="nav-links">
+      <a href="./login-form.html">LOGIN</a> |
+      <a href="./contact -form.html">CONTACT US</a> |
+      <a href="./registration.html">REGISTRATION</a>
+    </div>
+
+    <form class="login-form">
+      <label for="username">Email:</label>
+      <input type="email" id="username" name="username" placeholder="Enter Email" required />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter Password" required />
+
+      <div class="checkbox">
+        <input type="checkbox" id="showPassword" onclick="togglePassword()" />
+        <label for="showPassword">Show Password</label>
+      </div>
+
+      <input type="submit" value="Login" class="login-button" />
+
+      <div class="links">
+        <a href="forgot-password.html">Forgot Password?</a><br>
+        <a href="signup.html">Don't have an account? Sign up</a>
+      </div>
+    </form>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <div class="footer-top">
+      <input type="email" placeholder="Your Email" />
+      <button>Subscribe Now</button>
+    </div>
+    <div class="footer-cols">
+      <div>
+        <h3>Fruitables</h3>
+        <p>Fresh products</p>
+      </div>
+      <div>
+        <h4>Shop Info</h4>
+        <p>About Us</p>
+        <p>Contact Us</p>
+        <p>Privacy Policy</p>
+      </div>
+      <div>
+        <h4>Account</h4>
+        <p>My Account</p>
+        <p>Wishlist</p>
+        <p>Shopping Cart</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Email: example@gmail.com</p>
+        <p>Phone: +0123 4567 8910</p>
+      </div>
+    </div>
+    <p class="copyright">
+      &copy; 2025 PurePluck Fruitables. All rights reserved.
+    </p>
+  </footer>
+</body>
+</html>
